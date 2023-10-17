@@ -427,3 +427,22 @@ form.sign-in-form {
     left: 50%;
   }
 }
+/* Group List style */
+
+.group__list {
+  margin-top: 7%;
+  padding-inline: 3%;
+}
+
+.group__list p.title {
+  gap: 2em;
+  margin-block: 1em;
+  font-family: var(--roboto);
+  font-size: 2em;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.group__list p.title span {
+  color: var(--secondary);
+}
