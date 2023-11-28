@@ -1,8 +1,8 @@
 const slider = document.querySelector('.slider');
 const slides = document.querySelectorAll('.slide');
 
-let counter = 0.5;
-const size = slides[0].clientWidth;
+let counter = 0.1;
+const size = slides[10].clientWidth;
 
 slider.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
