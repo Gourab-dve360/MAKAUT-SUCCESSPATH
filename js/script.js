@@ -49,4 +49,8 @@ var swiper = new Swiper(".slide-container", {
       },
     },
   });
+
   
+  document.getElementById('footer-title').addEventListener('click', function() {
+      document.querySelector('.footer-content').classList.toggle('show');
+  });
