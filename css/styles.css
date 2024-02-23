@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background-color: hsl(234, 70%, 21%);
+    background-color: hsl(200, 63%, 71%);
     color: #f3f0f0;
     padding: 15px;
     display: flex;
@@ -16,7 +16,7 @@ body {
 
 .logo {
     
-    width: 300px;
+    width: 200px;
     
 }
 
@@ -40,16 +40,29 @@ body {
     
 }
 
-
-
-
 * {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width:700px;
-  position: relative;
+/* Slideshow container  */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.slider-container {
+  width: 80%;
   margin: auto;
+  overflow: hidden;
+}
+
+.slider {
+    display: flex;
+            transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
 }
 
 /* Hide the images by default */
