@@ -332,5 +332,52 @@ footer a {
   text-align: center;
   
 }
+/* Large screens */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  .navbar {
+    padding: 20px 30px;
+  }
+  .nav-list a {
+    font-size: 30px;
+  }
+}
+
+/* Medium screens */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  body {
+    font-size: 16px;
+  }
+  .navbar {
+    padding: 15px 20px;
+  }
+  .nav-list a {
+    font-size: 25px;
+  }
+}
+
+/* Small screens */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-list li {
+    margin: 5px 0;
+  }
+  .nav-list a {
+    font-size: 20px;
+  }
+}
+
 
 
