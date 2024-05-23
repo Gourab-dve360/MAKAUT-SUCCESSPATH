@@ -63,11 +63,13 @@ body {
 .slider img {
   width: 100%;
   height: auto;
+  display: flex;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: flex;
+  align-items: center;
 }
 
 /* Next & previous buttons */
