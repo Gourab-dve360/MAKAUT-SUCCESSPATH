@@ -3,6 +3,7 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -44,14 +45,19 @@ body {
 
 /* Slideshow container  */
 .mySlides {
+  
   display: flex;
-  overflow: auto;
+  
 }
 .mySlides img {
   display: block;
   max-width: 100%;
   display: flex;
+  padding-inline: 5px;
+  padding-block: 2px;
+  
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
