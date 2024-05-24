@@ -143,6 +143,7 @@ img{
 
 .button {
     text-align: center;
+    padding-top: 1%;
 }
 
 .content {
@@ -242,9 +243,11 @@ p {
 .card {
   background: #fff;
   border-radius: 8px;
+  padding-bottom: 10px;
 }
 .card .image-box {
   height: 300px;
+  
 }
 .card .image-box img {
   width: 100%;
@@ -261,15 +264,18 @@ p {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  padding-bottom: 10px;
 }
 .profile-details .name {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 400;
+  
 }
 .profile-details .job {
   font-size: 12px;
   font-weight: 500;
   color: #4d4d4d;
+  
 }
 
 .swiper-navBtn {
@@ -279,10 +285,12 @@ p {
   transform: translateY(-40%);
   background: #fff;
   border-radius: 50%;
+  
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after {
   font-size: 24px;
+
 }
 
 .swiper-pagination-bullet {
@@ -547,21 +555,21 @@ footer a {
 .pro-link i{
   padding: 10px 13px;
   background-color: rgba(21 , 21, 100);
-  border: 1px solid rgba(21 , 21, 100);
+  border: 1px solid rgb(231, 232, 219);
   font-size: 1.3rem;
   cursor: pointer;
   color: #fff;
   transition: 0.5s ease;
 }
 .pro-link i:hover{
-  color: rgba(21 , 21, 100);
+  color: rgb(247, 247, 250);
   font-size: 1.3rem;
   cursor: pointer;
   background: transparent;
 }
 /* footer */
 footer{
-  padding: 8vw;
+  padding: 5%;
   background-color: #101C32;
   display: flex;
   justify-content: space-between;
@@ -589,6 +597,7 @@ footer li:hover{
 }
 footer p{
   color: #7b838a;
+  
 }
 footer .subscribe{
   margin-top: 20px;
@@ -616,7 +625,7 @@ footer a.yellow{
   transition: 0.5s;
 }
 footer a.yellow:hover{
-  color: rgba(21 , 21, 100);
+  color: rgb(27, 27, 96);
   background-color: #fff;
 }
 footer .copyright{
@@ -709,16 +718,5 @@ footer .copyright{
       margin-bottom: 20px;
   }
 }
-#home h2 {
-  color: #fff;
-  font-size: 2rem;
-  letter-spacing: 3px;
-}
-#home p {
-  width: 95%;
-  color: #fff;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  line-height: 20px;
-}
+
 
