@@ -161,7 +161,7 @@ h1 {
     
     text-align: center;
     font-size: 20px;
-    color: #ebe3e3;
+    color: #05060be8;
     
     
 }
@@ -171,7 +171,7 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 40px;
-    color: #e7f0f0;
+    color: #010c0ce7;
     
     
 }
@@ -181,14 +181,14 @@ h3 {
     padding-bottom: 10px;
     text-align: center;
     font-size: 30px;
-    color: rgb(46, 6, 6);
+    color: rgb(33, 3, 3);
     
     
 }
 p {
     text-align: center;
     font-size: 30px;
-    color: #e7f0f0;
+    color: #051031;
     
 }
 .questions {
@@ -291,7 +291,7 @@ p {
     display: none;
   }
 }
-
+/*
 
 footer {
   
@@ -366,5 +366,356 @@ footer a {
   }
 }
 
+/* feature */
+#feature{
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+#feature .fea-base{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+.fea-box{
+  background-color: #0fa0cd;
+  text-align: start;
+  padding: 40px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.fea-box i{
+   font-size: 2.3rem;
+   color: rgba(44 , 44 , 80);
+   cursor: pointer;
+}
+.fea-box h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(1, 1, 2);
+  padding: 13px 0 7px 0;
+}
+.fea-box p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(4);
+}
+/* Courses */
+#courses{
+  padding: 8vw;
+  text-align: center;
+}
+#courses .course-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+.courses{
+  margin-top: 20px;
+}
+#courses .courses{
+  text-align: center;
+  background: #f8faff;
+  height: 130%;
+  position: relative;   
+  cursor: pointer;
+}
+#courses .courses img{
+  width: 99%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.courses .details{
+  padding: 15px 15px 0 15px;
+}
+.courses .details i{
+  color: #FDC93B;
+  font-size: .9rem;
+}
+.courses .cost{
+  background-color: rgb(74,74,136);
+  color: #fff;
+  width: 70px;
+  line-height: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  bottom: 100px;
+}
+/* Registration */
+#regestration{
+  padding: 6vw 8vw 6vw 8vw;
+  background-image: linear-gradient(rgba(99,112,168,0.5),rgba(81,91,233,0.5)) ,url(signup.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#regestration .reminder{
+  color: #fff;
+}
+#regestration .reminder .time{
+  display: flex;
+  margin-top: 40px;
+}
+#regestration .reminder .time .date{
+  text-align: center;
+  padding: 13px 33px;
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+  border-radius: 5px;
+  margin: 0 5px 10px 5px;
+  border: 2px solid rgba(255,255,255,0.18);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+#regestration form {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+}
+#regestration .form input::placeholder{
+  font-size: 1rem;
+  font-weight: 500;
+}
+#regestration .form input{
+  margin: 15px 0;
+  padding: 15px 10px;
+  border: 1px solid rgb(140, 123, 123);
+  outline: none;
+}
+#regestration .form h1{
+  color: rgb(125, 93, 93);
+  font-size: 1.6rem;
+}
+#regestration .form a.yellow{
+  color: #fff;
+  background-color: #FDC93B;
+  transition: 0.5s;
+  text-decoration: none;
+  padding: 12px 17px;
+  border-radius: 5px;
+}
+#regestration .form .btn{
+  margin-top: 20px;
+}
+#regestration .reminder h2{
+  font-size: 2.4rem;
+}
+#regestration .form a.yellow:hover{
+  color: rgba(21 , 21, 100);
+  background-color: #fff;
+  border: 1px solid #FDC93B;
+}
+/* Profile */
+#expert img{
+  width: 275px;
+  height: 270px;
+}
+#expert{
+  padding: 8vw;
+  text-align: center;
+}
+#expert .expert-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+#expert .expert-box .profile{
+  background: #fafaf1;
+  padding: 30px 10px;
+}
+.pro-link{
+  margin-top: 10px;
+}
+.pro-link i{
+  padding: 10px 13px;
+  background-color: rgba(21 , 21, 100);
+  border: 1px solid rgba(21 , 21, 100);
+  font-size: 1.3rem;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.5s ease;
+}
+.pro-link i:hover{
+  color: rgba(21 , 21, 100);
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: transparent;
+}
+/* footer */
+footer{
+  padding: 8vw;
+  background-color: #101C32;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+footer .footer-col{
+  padding-bottom: 40px;
+}
+footer h3{
+  color: rgba(241, 240 ,245);
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+footer li{
+  list-style: none;
+  color: #7b838a;
+  padding: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer li:hover{
+  color: rgba(241, 240 ,245);
+}
+footer p{
+  color: #7b838a;
+}
+footer .subscribe{
+  margin-top: 20px;
+}
+footer input{
+  width: 220px;
+  padding: 15px 12px;
+  background: #334F6C;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+footer input::placeholder{
+  color: #fff;
+}
+footer .subscribe a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 15px 21px;
+  background-color: #fff;
+}
+footer a.yellow{
+  color: #fff;
+  background-color: #FDC93B;
+  transition: 0.5s;
+}
+footer a.yellow:hover{
+  color: rgba(21 , 21, 100);
+  background-color: #fff;
+}
+footer .copyright{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: -120px;
+}
+@media (max-width: 769px) {
+  nav{
+    padding: 15px 20px;
+  }
+  nav img{
+      width: 130px;
+  }
+  #menu-btn{
+      display: initial;
+  }
+  #close-btn{
+      display: initial;
+      font-size: 1.6rem;
+      color: #fff;
+      padding: 30px 0 20px 20px;
+  }
+  nav .navigation ul{
+      display: flex;
+      top: 0;
+      width: 220px;
+      background-color: rgba(17, 20, 104, 0.45);
+      backdrop-filter: blur(.5px);
+      border: 1px solid rgba(255,255,255,0.18);
+      height: 100vh;
+      position: absolute;
+      right: -220px;
+      transition: 0.5s;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+  nav .navigation ul.active{
+      right: 0px;
+  }
+  nav .navigation ul li{
+      padding: 20px 0 20px 40px;
+      margin-left: 0;
+  }   
+  nav .navigation ul li a{
+      color: #fff;
+  } 
+  #home {
+      padding-top: 0px;
+  }
+  #home p{
+      width: 90%;
+  }
+  #feature{
+      padding: 5vw 4vw 0 4vw;
+  }
+  #courses{
+      padding: 8vw 4vw 0 4vw;
+  }
+  #regestration{
+      padding: 6vw 4vw 6vw 4vw;
+  }
+  #regestration .reminder .time{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+  }
 
+}
+@media(max-width: 475px){
+  #regestration {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      text-align: center;
+  }
+  #regestration .reminder .time{
+      display: flex;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+}
+#home h2 {
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+#home p {
+  width: 95%;
+  color: #fff;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
 
