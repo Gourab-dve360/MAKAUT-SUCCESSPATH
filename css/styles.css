@@ -236,12 +236,13 @@ p {
   overflow: hidden;
 }
 .card {
-  background: #fff;
+  background: #d9dde8;
   border-radius: 8px;
   padding-bottom: 10px;
 }
 .card .image-box {
-  height: 300px;
+  height: 200px;
+  margin-top: 5px;
   
 }
 .card .image-box img {
@@ -388,8 +389,9 @@ p {
 #courses .course-box{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 1rem;
-  margin-top: 50px;
+  grid-gap: 1%;
+  margin-top: 45px;
+  
 }
 .courses{
   margin-top: 20px;
@@ -397,7 +399,7 @@ p {
 #courses .courses{
   text-align: center;
   background: #a0b6ed;
-  height: 110%;
+  height: 90%;
   position: relative;   
   cursor: pointer;
 }
