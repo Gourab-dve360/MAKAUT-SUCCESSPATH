@@ -20,6 +20,18 @@ body {
     
 }
 
+
+h1 {
+
+  padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+   font-size: 40px;
+   color: #05060be8;
+   
+}
+
+
 .nav-list {
 
     list-style: none;
