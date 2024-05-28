@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Help - VS Code</title>
+    <link rel="stylesheet" href="get-help.css">
+</head>
+<body>
+    <header>
+        <h1>Get Help within 1 Hours</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>We're here to help!</h2>
+            <p>If you encounter any issues or have any questions, please fill out the form below and we'll get back to you as soon as possible.</p>
+        </section>
+        <section class="form-section">
+            <form action="/submit-help-request" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="issue">Describe your issue:</label>
+                    <textarea id="issue" name="issue" rows="5" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>@2024 VS Code. All rights reserved.</p>
+    </footer>
+</body>
+</html>

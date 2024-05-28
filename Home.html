@@ -2,35 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Question Bank</title>
+    <title>MAKAUT SuccessPath</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
      <!-- Swiper CSS -->
      <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="images/logo-no-background.png" alt="MAKAUT.SuccessPath">
-        </div>
-        <ul class="nav-list">
-            <li><a href="sign up/login.html">Login / Sin up</a></li>
+    <nav>
+        <img src="images/logo-black.png">
+        <div class="navigation">
+            <ul>
+                <i id="close-btn" class="fa fa-xmark"></i>
+                <li><a href="sign up/login.html">Login / Sin up</a></li>
             <li><a href="Question/NewQuestion.html">Questions</a></li>
             <li><a href="Placement/PL.home.html">Placement </a></li>
             <li><a href="Contucts/C.Home.html">Contucts</a></li>
-            <li><a href="About/Ab.html">About</a></li> 
-        </ul>
+            <li><a href="About/Ab.html">About</a></li>
+            </ul>
+            <img src="images/menu.png" id="menu-btn">
+        </div>
     </nav>
-
-    
     <div class="flater">
       <marquee>Explore Questions and Placement materials in Computer Science & Engineering, Electrical Engineering, Electronics & Communication Engineering and Civil Engineering.</marquee>
   </div>
-
     <!-- Content -->
     <div class="content">
         <h1 style="background-color:rgb(247, 247, 247);">Welcome to the MAKAUT SuccessPath</h1>
@@ -50,11 +52,8 @@
       <img src="images/c8.jpg" style="width:15%">
       <img src="images/c6.jpg" style="width:14%">
       <img src="images/c7.jpeg" style="width:15%">
-   
     </div>
     </div>
-
-
   <!-- The dots/circles -->
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
@@ -62,10 +61,7 @@
     <span class="dot" onclick="currentSlide(3)"></span>
     <span class="dot" onclick="currentSlide(4)"></span>
   </div>
-
-
-
-    <!-- Features -->
+   <!-- Features -->
     <section id="feature">
       <h1>Awesome Features</h1>
       <p>Replenish man have thing gathering lights yeilding shall you</p>
@@ -285,34 +281,18 @@
   <footer>
     <div class="footer-container">
       <ul class="footer-links">
-          <li><a href="#blogs">Blogs</a></li>
-          <li><a href="#get-help">Get Help</a></li>
-          <li><a href="#privacy">Privacy</a></li>
-          <li><a href="#teams">@Teams</a></li>
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a href="Blogs/BL.home.html">Blogs</a></li>
+          <li><a href="get-help/get-help.html">Get Help</a></li>
+          <li><a href="privacy/privacy.html">Privacy</a></li>
+        
+          <li><a href="About/Ab.html">About Us</a></li>
+          <li><a href="Contucts/C.Home.html">Contact Us</a></li>
       </ul>
       <p> @2024 MAKAUT SuccessPath. All rights reserved.</p>
-  </div>
-      
+  </div>     
   </footer>
-
-
-    <!--Footer
-    <footer>
-        
-      <div class="footer-content">
-          <p><a href="Blogs/BL.home.html">Blogs</a></p>
-          <p><a href="#">Get Help</a></p>
-          <p><a href="#">Privacy</a></p>
-          <p><a href="#">@Teams</a></p>
-      </div>
-  </footer>
--->
-    
-
     <script src="js/swiper-bundle.min.js"></script>
-
     <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
