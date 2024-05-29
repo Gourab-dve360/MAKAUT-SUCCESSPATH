@@ -38,6 +38,111 @@
         h1 {
             color: #333;
         }
+
+        /* Google Fonts - Poppins */
+
+        img{
+  padding-top: 5px;
+    width: 150%;
+}
+
+.button {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.content {
+  margin-top: 100%;
+  padding-top: 10px;
+    padding-bottom: 10px;
+    
+    display: contents;
+    text-align: center;
+    
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 60px 0;
+}
+.slide-container {
+  margin: 0 20px;
+  overflow: hidden;
+}
+.card {
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding-bottom: 5px;
+}
+.card .image-box {
+  height: 200px;
+  margin-top: 1px;
+  
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+.profile-details .name {
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+  
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 50px;
+  width: 50px;
+  transform: translateY(-40%);
+  background: #fff;
+  border-radius: 50%;
+  
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 24px;
+
+}
+
+.swiper-pagination-bullet {
+  background-color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
+
     </style>
 </head>
 <body>
@@ -53,6 +158,75 @@
     <h1>Welcome to the Question Bank</h1>
     <p>Explore a variety of questions in different categories.</p>
 </div>
+
+<div class="content">
+    <h1 style="background-color:rgb(247, 247, 247);">Explore the Question Paper </h1>
+</div>
+
+<!-- Card box -->
+<div class="container swiper">
+<div class="slide-container">
+  <div class="card-wrapper swiper-wrapper">
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <li><a href="cse/CSE Front.HTML"><img src="images/showImg/fullDev.jpg"/> </a></li>
+        
+      </div>
+      <div class="profile-details">
+        
+        <div class="name-job">
+          <h3 class="name"><b>Computer Science and Engineering</b></h3>
+         
+        </div>
+      </div>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <li><a href="ECE/ECE Front.HTML"> 
+            <img src="images/showImg/ece image.jpg"  /></a></li>
+      </div>
+      <div class="profile-details">
+        
+        <div class="name-job">
+          <h3 class="name"><b>Electronics and Communication Engineering</b></h3>
+        
+        </div>
+      </div>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <li><a href="EE/EE Front.HTML">
+            <img src="images/showImg/electrical img.jpg" alt="" /></a></li>
+      </div>
+      <div class="profile-details">
+       
+        <div class="name-job">
+          <h3 class="name"><b>Electrical Engineering</b></h3>
+       
+        </div>
+      </div>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-box">
+        <li><a href="CE/CE Front.HTML">
+            <img src="images/showImg/civil image.jpg" alt="" /></a></li>
+      </div>
+      <div class="profile-details">
+       
+        <div class="name-job">
+          <h3 class="name"><b>Civil Engineering</b></h3>
+        
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+<div class="swiper-button-next swiper-navBtn"></div>
+<div class="swiper-button-prev swiper-navBtn"></div>
+<div class="swiper-pagination"></div>
+</div>
+
 
 <script>
     // You can add JavaScript code here if needed
